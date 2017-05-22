@@ -1,5 +1,27 @@
+/*
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
 /**
- * Created by jivey on 5/10/17.
+ * Modified by jivey on 5/10/17.
+ * Removed the restriction of having an environment variable control isLoggable
+ *      Now a parameter for class instantiation, and explicit enable method
+ * Added the interval time being returned by addSplit()
+ * Added the total time being returned by dumpToLog()
+ * This allows calling program a way to track timing activity if it is needed.
  */
 package com.fossil.jivey.curly;
 
